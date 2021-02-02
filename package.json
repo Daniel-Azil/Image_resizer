@@ -1,0 +1,20 @@
+{
+  "name": "image_resizer",
+  "productName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "A desktop application for resizer image shape for computer vision dataset",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . "
+  },
+  "author": "Daniel Azil",
+  "license": "MIT",
+  "devDependencies": {
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  },
+  "dependencies": {
+    "electron": "^30.0.2",
+    "electronmon": "^2.0.3"
+  }
+}
